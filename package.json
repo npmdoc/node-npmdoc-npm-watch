@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"npm-watch",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "npm-watch",
+    "description": "api documentation for [npm-watch (v0.1.8)](https://github.com/grncdr/npm-watch) [![npm package](https://img.shields.io/npm/v/npmdoc-npm-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-watch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-watch)",
     "devDependencies": {
-        "npm-watch": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "npm-watch": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-npm-watch",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-npm-watch",
+    "keywords": [
+        "documentation",
+        "npm-watch"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_npm_watch.js",
+    "name": "npmdoc-npm-watch",
+    "nameAlias": "npmdoc_npm_watch",
+    "nameOriginal": "npmdoc-npm-watch",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-npm-watch"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
