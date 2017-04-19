@@ -1,9 +1,14 @@
-# api documentation for  [npm-watch (v0.1.8)](https://github.com/grncdr/npm-watch)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-watch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-watch)
+# npmdoc-npm-watch
+
+#### api documentation for  [npm-watch (v0.1.8)](https://github.com/grncdr/npm-watch)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-watch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-watch)
+
 #### run scripts from package.json when files change
 
-[![NPM](https://nodei.co/npm/npm-watch.png?downloads=true)](https://www.npmjs.com/package/npm-watch)
+[![NPM](https://nodei.co/npm/npm-watch.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/npm-watch)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-npm-watch/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-npm-watch_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-npm-watch/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-npm-watch/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-npm-watch/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-npm-watch/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-npm-watch/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-npm-watch/build/screenCapture.npmPackageListing.svg)
 
@@ -17,8 +22,7 @@
 
 {
     "author": {
-        "name": "Stephen Sugden",
-        "email": "me@stephensugden.com"
+        "name": "Stephen Sugden"
     },
     "bin": {
         "npm-watch": "./cli.js"
@@ -53,25 +57,20 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "grncdr",
-            "email": "glurgle@gmail.com"
+            "name": "grncdr"
         },
         {
-            "name": "jackwanders",
-            "email": "johnwanderson@gmail.com"
+            "name": "jackwanders"
         },
         {
-            "name": "moos",
-            "email": "mooster@42at.com"
+            "name": "moos"
         },
         {
-            "name": "mordzuber",
-            "email": "mez613@gmail.com"
+            "name": "mordzuber"
         }
     ],
     "name": "npm-watch",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/grncdr/npm-watch.git"
@@ -95,16 +94,6 @@
     }
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module npm-watch](#apidoc.module.npm-watch)
-
-
-
-# <a name="apidoc.module.npm-watch"></a>[module npm-watch](#apidoc.module.npm-watch)
 
 
 
