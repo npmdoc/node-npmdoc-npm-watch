@@ -1,6 +1,6 @@
 # npmdoc-npm-watch
 
-#### api documentation for  [npm-watch (v0.1.8)](https://github.com/grncdr/npm-watch)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-watch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-watch)
+#### basic api documentation for  [npm-watch (v0.1.8)](https://github.com/grncdr/npm-watch)  [![npm package](https://img.shields.io/npm/v/npmdoc-npm-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-npm-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-npm-watch.svg)](https://travis-ci.org/npmdoc/node-npmdoc-npm-watch)
 
 #### run scripts from package.json when files change
 
